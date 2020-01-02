@@ -1,10 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: Arial;
     font-size: 18px;
 }
 
 h1,h2{
-    color: green;
+    color: rgb(18, 152, 75);
+    margin: 20px;
+
 }
 
 h1 {
@@ -16,4 +24,14 @@ h2 {
 }
 p {
     text-align: justify;
+}
+
+.main-text{
+    text-align: justify;
+    margin: 20px;
+
+}
+
+.author-text{
+    font-size: 22px;
 }
