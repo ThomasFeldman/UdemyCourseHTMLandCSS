@@ -283,7 +283,7 @@ h3{
     margin-top: 30px;
 }
 
-.steps-box: last-child {
+.steps-box:last-child {
     padding-left: 3%;
     margin-top: 70px;
 }
@@ -319,3 +319,9 @@ h3{
     width: auto;
     margin-right: 10px;
 }
+
+
+/* ------------------------------ */
+/* HOW IT WORKS */
+/* ------------------------------ */
+
