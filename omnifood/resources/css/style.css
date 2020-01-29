@@ -67,12 +67,24 @@ header{
     padding-left: 30px;
 }
 
-.logo {
+.logo,
+.logo-black{
     height: 100px;
     width: auto;
     float: left;
     margin-top: 20px;
 }
+
+.logo-black {
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 5px;
+}
+
+
+/* MAIN NAV */
 
 .main-nav {
     float: right;
@@ -102,6 +114,26 @@ header{
     border-bottom: 2px solid #e67e22;
 }
 
+
+/* STICKY NAV */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+}
+
+.main-nav { margin-top: 15px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
+    
+}
+.sticky .logo {display: none;}
+.sticky .logo-black {display: block;}
 
 /* ------------------------------ */
 /* HEADINGS */
