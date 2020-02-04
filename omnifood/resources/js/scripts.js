@@ -38,4 +38,9 @@ $(document).ready(function () {
            }
        }); 
    }); 
+    
+    /* Animations on Scroll */
+    $('.js--wp-1').waypoint(function(direction){
+        $('.js--wp-1').addClass()
+    })
 });          
